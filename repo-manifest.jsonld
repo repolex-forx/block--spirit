@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/block/spirit/commit/a0a8e82817bd12285696207fcfa65f75a84a89f2",
       "git:hexsha": "a0a8e82817bd12285696207fcfa65f75a84a89f2",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-09T16:15:03.669510+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/spirit/commit/a384d903db9586d2610f06319bd67814dad678a5",
