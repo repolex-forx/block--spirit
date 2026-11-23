@@ -1,0 +1,32 @@
+{
+  "commit_sha": "9d6bdd67a9e15f3f411756b4181162e43500c376",
+  "completed_files": [
+    "pkg/change/gtid_recreate_test.go",
+    "pkg/change/subscription_buffered_test.go",
+    "pkg/checksum/throttle_test.go",
+    "pkg/copier/autoscaler_test.go",
+    "pkg/lint/lint_primary_key_type_test.go",
+    "pkg/table/column_mapping.go"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/block/spirit/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz",
+    "call_sites": 42886,
+    "import_statements": 0,
+    "call_targets_resolved": 2290,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 7,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1801
+}
