@@ -1,0 +1,28 @@
+[2026-11-23T08:59:53Z] === ENRICH ITERATION 6 START | repo=block/spirit sha=9d6bdd67 ===
+[2026-11-23T08:59:53Z] [iter=6] PHASE START: enrich repo=block/spirit sha=9d6bdd67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9d6bdd67-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz
+[2026-11-23T09:00:14Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=86 MB
+[2026-11-23T09:00:51Z] [iter=6] AST store loaded triples=4611951 load_secs=36 mem_mb=912 MB
+[2026-11-23T09:00:51Z] [iter=6] Step 2: Finding LSP targets mem_mb=912 MB
+[2026-11-23T09:00:54Z] [iter=6] LSP targets found call_sites=42886 imports=0 extends=0 implements=0 secs=3
+[2026-11-23T09:00:59Z] [iter=6] Loaded checkpoint partial graph triples=123709
+[2026-11-23T09:00:59Z] [iter=6] Primed enclosing-def cache from persisted triples entries=817
+[2026-11-23T09:00:59Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=912 MB
+[2026-11-23T09:01:17Z] [iter=6] Position index built positions=305450 nodes_with_types=369815 secs=18 mem_mb=1162 MB
+[2026-11-23T09:01:17Z] [iter=6] Step 3: Starting LSP resolution mem_mb=1162 MB already_completed_types=[] already_completed_files=47
+[2026-11-23T09:01:17Z] [iter=6] Resolving target type target_type=call_site count=42886
+[2026-11-23T09:01:18Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=0 resolved=0 errors=0 current=pkg/statement/diff_integration_test.go
+[2026-11-23T09:06:18Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=2 resolved=612 errors=0 current=pkg/throttler/gradualonly_test.go
+[2026-11-23T09:08:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=4 resolved=965 errors=0 current=pkg/lint/lint_test.go
+[2026-11-23T09:10:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=5 resolved=1234 errors=0 current=pkg/change/binlog.go
+[2026-11-23T09:12:30Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=12.6 files_done=6 resolved=1502 errors=0 current=pkg/move/check/configuration_test.go
+[2026-11-23T09:13:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=8 resolved=1658 errors=0 current=pkg/lint/lint_allow_engine_test.go
+[2026-11-23T09:14:41Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=9 resolved=1892 errors=0 current=pkg/statement/diff_test.go
+[2026-11-23T09:20:34Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=11 resolved=2700 errors=0 current=pkg/lint/lint_datetime_index_position_test.go
+[2026-11-23T09:21:36Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=12 resolved=2850 errors=0 current=pkg/table/tableinfo_test.go
+[2026-11-23T09:23:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=13 resolved=3144 errors=0 current=pkg/table/dynamic_chunk_sizer_test.go
+[2026-11-23T09:27:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=15 resolved=3592 errors=0 current=pkg/migration/change_test.go
+[2026-11-23T09:28:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=28.5 files_done=16 resolved=3788 errors=0 current=pkg/move/reversefeed_test.go
+[2026-11-23T09:30:00Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=63 new_files_this_iter=16 mem_mb=1189 MB
+[2026-11-23T09:30:00Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz triples=154140
+[2026-11-23T09:30:01Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-11-23T09:30:01Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=63
