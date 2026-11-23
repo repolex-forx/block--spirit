@@ -3,19 +3,28 @@
   "completed_files": [
     "pkg/applier/single_target.go",
     "pkg/applier/single_target_test.go",
+    "pkg/applier/stats_test.go",
     "pkg/change/gtid_recreate_test.go",
     "pkg/change/subscription_buffered_test.go",
+    "pkg/checksum/continuous_test.go",
     "pkg/checksum/single.go",
+    "pkg/checksum/single_test.go",
     "pkg/checksum/throttle_test.go",
     "pkg/copier/autoscaler_test.go",
+    "pkg/lint/lint_has_fk_test.go",
     "pkg/lint/lint_index_visibility_test.go",
     "pkg/lint/lint_primary_key_type_test.go",
     "pkg/migration/migration_test.go",
+    "pkg/move/check/resume_state_test.go",
     "pkg/move/move_sharded_test.go",
+    "pkg/move/runner_close_test.go",
+    "pkg/statement/classify_test.go",
     "pkg/statement/create_table_test.go",
     "pkg/statement/declarative.go",
+    "pkg/status/task_test.go",
     "pkg/table/chunker_composite_test.go",
-    "pkg/table/column_mapping.go"
+    "pkg/table/column_mapping.go",
+    "pkg/throttler/aurora_threads_test.go"
   ],
   "completed_types": [],
   "stats": {
@@ -23,7 +32,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz",
     "call_sites": 42886,
     "import_statements": 0,
-    "call_targets_resolved": 5765,
+    "call_targets_resolved": 8924,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -37,5 +46,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1804
 }
