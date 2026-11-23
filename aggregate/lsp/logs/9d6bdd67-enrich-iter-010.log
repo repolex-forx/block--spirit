@@ -1,0 +1,34 @@
+[2026-11-23T11:08:26Z] === ENRICH ITERATION 10 START | repo=block/spirit sha=9d6bdd67 ===
+[2026-11-23T11:08:26Z] [iter=10] PHASE START: enrich repo=block/spirit sha=9d6bdd67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9d6bdd67-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz
+[2026-11-23T11:08:52Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=86 MB
+[2026-11-23T11:09:34Z] [iter=10] AST store loaded triples=4611951 load_secs=40 mem_mb=894 MB
+[2026-11-23T11:09:34Z] [iter=10] Step 2: Finding LSP targets mem_mb=894 MB
+[2026-11-23T11:09:38Z] [iter=10] LSP targets found call_sites=42886 imports=0 extends=0 implements=0 secs=4
+[2026-11-23T11:09:51Z] [iter=10] Loaded checkpoint partial graph triples=243992
+[2026-11-23T11:09:51Z] [iter=10] Primed enclosing-def cache from persisted triples entries=1310
+[2026-11-23T11:09:52Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=894 MB
+[2026-11-23T11:10:17Z] [iter=10] Position index built positions=305450 nodes_with_types=369815 secs=26 mem_mb=1316 MB
+[2026-11-23T11:10:17Z] [iter=10] Step 3: Starting LSP resolution mem_mb=1316 MB already_completed_types=[] already_completed_files=141
+[2026-11-23T11:10:17Z] [iter=10] Resolving target type target_type=call_site count=42886
+[2026-11-23T11:10:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=pkg/migration/checksum_invalidation_test.go
+[2026-11-23T11:11:51Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=1 resolved=125 errors=0 current=pkg/sentinel/sentinel_test.go
+[2026-11-23T11:12:41Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=2 resolved=212 errors=0 current=pkg/lint/linter_integration_test.go
+[2026-11-23T11:17:02Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=3 resolved=466 errors=0 current=pkg/utils/grants_test.go
+[2026-11-23T11:17:51Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=5 resolved=522 errors=0 current=pkg/checksum/autoscaler_test.go
+[2026-11-23T11:20:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=6 resolved=669 errors=0 current=pkg/throttler/replica.go
+[2026-11-23T11:21:11Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=8 resolved=780 errors=0 current=pkg/table/sharding_test.go
+[2026-11-23T11:21:42Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=9 resolved=853 errors=0 current=pkg/move/sentinel_test.go
+[2026-11-23T11:22:13Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=10 resolved=899 errors=0 current=pkg/dbconn/tablelock.go
+[2026-11-23T11:25:05Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=12 resolved=1184 errors=0 current=pkg/dbconn/dsn_test.go
+[2026-11-23T11:27:14Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=14 resolved=1338 errors=0 current=pkg/table/column_mapping_test.go
+[2026-11-23T11:29:06Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=15 resolved=1451 errors=0 current=pkg/change/subscription_buffered.go
+[2026-11-23T11:30:06Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=16 resolved=1577 errors=0 current=pkg/lint/lint_auto_inc_capacity_test.go
+[2026-11-23T11:33:39Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=17 resolved=1871 errors=0 current=pkg/statement/diff_column_options_test.go
+[2026-11-23T11:35:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=26.9 files_done=18 resolved=2061 errors=0 current=pkg/dbconn/dsn_tls_test.go
+[2026-11-23T11:36:16Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=27.8 files_done=19 resolved=2177 errors=0 current=pkg/lint/lint_zero_date_test.go
+[2026-11-23T11:37:43Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=20 resolved=2298 errors=0 current=pkg/throttler/aurora_test.go
+[2026-11-23T11:38:14Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=29.8 files_done=21 resolved=2351 errors=0 current=pkg/dbconn/advisorylock.go
+[2026-11-23T11:38:28Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=162 new_files_this_iter=21 mem_mb=1332 MB
+[2026-11-23T11:38:28Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/9d6bdd67a9e15f3f411756b4181162e43500c376.nq.gz triples=262606
+[2026-11-23T11:38:31Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-11-23T11:38:31Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=162
